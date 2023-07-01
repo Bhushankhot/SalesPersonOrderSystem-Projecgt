@@ -5,3 +5,10 @@ C:\Users\Bhushan.Khot\OneDrive - GEP\SalesPersonOrderSystem\SalesPersonOrderSyst
 C:\Users\Bhushan.Khot\OneDrive - GEP\SalesPersonOrderSystem\SalesPersonOrderSystem\obj\Debug\SalesPersonOrderSystem.csproj.CoreCompileInputs.cache
 C:\Users\Bhushan.Khot\OneDrive - GEP\SalesPersonOrderSystem\SalesPersonOrderSystem\obj\Debug\SalesPersonOrderSystem.exe
 C:\Users\Bhushan.Khot\OneDrive - GEP\SalesPersonOrderSystem\SalesPersonOrderSystem\obj\Debug\SalesPersonOrderSystem.pdb
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesPersonOrderSystem\bin\Debug\SalesPersonOrderSystem.exe.config
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesPersonOrderSystem\bin\Debug\SalesPersonOrderSystem.exe
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesPersonOrderSystem\bin\Debug\SalesPersonOrderSystem.pdb
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesPersonOrderSystem\obj\Debug\SalesPersonOrderSystem.csproj.AssemblyReference.cache
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesPersonOrderSystem\obj\Debug\SalesPersonOrderSystem.csproj.CoreCompileInputs.cache
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesPersonOrderSystem\obj\Debug\SalesPersonOrderSystem.exe
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesPersonOrderSystem\obj\Debug\SalesPersonOrderSystem.pdb
