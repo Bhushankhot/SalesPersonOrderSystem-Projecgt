@@ -1,0 +1,6 @@
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderEntity\bin\Debug\SalesOrderEntity.dll
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderEntity\bin\Debug\SalesOrderEntity.pdb
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderEntity\obj\Debug\SalesOrderEntity.csproj.AssemblyReference.cache
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderEntity\obj\Debug\SalesOrderEntity.csproj.CoreCompileInputs.cache
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderEntity\obj\Debug\SalesOrderEntity.dll
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderEntity\obj\Debug\SalesOrderEntity.pdb

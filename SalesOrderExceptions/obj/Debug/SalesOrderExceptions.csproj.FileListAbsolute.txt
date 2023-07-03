@@ -1,0 +1,2 @@
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderExceptions\obj\Debug\SalesOrderExceptions.csproj.AssemblyReference.cache
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderExceptions\obj\Debug\SalesOrderExceptions.csproj.CoreCompileInputs.cache

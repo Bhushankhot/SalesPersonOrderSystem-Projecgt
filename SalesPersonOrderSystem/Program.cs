@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SalesOrderEntity;
 
 namespace SalesPersonOrderSystem
 {
@@ -26,15 +27,16 @@ namespace SalesPersonOrderSystem
             {
                 case 1://To Add Details in Orders table
                         var details = new Order();
+            
                         Console.WriteLine("Enter Order Date (dd-mm-yyyy) : ");
                         string text = Console.ReadLine();
-                        details.order_date = DateTime.ParseExact(text, "dd/MM/yyyy", null);
+                        details.Order_date = DateTime.ParseExact(text, "dd/MM/yyyy", null);
                         Console.WriteLine("Enter Order Amount : ");
                         details.Amount=int.Parse(Console.ReadLine());
-                        Console.WriteLine("Enter Customer Name : ");
-                        details.Customer.Cname=Console.ReadLine();
+                        Console.WriteLine("Enter Customer Id : ");
+                        details.Cust_id=int.Parse(Console.ReadLine());
                         Console.WriteLine("Enter Sales Person Name : ");
-                        details.SalesPerson.Sname=Console.ReadLine();
+                        details.Salesperson_id=int.Parse(Console.ReadLine());   
                         dao.AddOrder(details);
                         Console.WriteLine("Record Inserted .... ");
                     break;
@@ -43,7 +45,7 @@ namespace SalesPersonOrderSystem
                             Console.WriteLine($"Order_id\tAmount\torder_date\tsalesperson_id\tcust_id");
                         foreach (var item in lstOrders)
                         {
-                            Console.WriteLine($"\t{item.Order_id}\t{item.Amount}\t{item.order_date}\t{item.salesperson_id}\t{item.cust_id}");
+                            Console.WriteLine($"\t{item.OrderId}\t{item.Amount}\t{item.Order_date}\t{item.Salesperson_id}\t{item.Cust_id}");
                         }
                     break;
                 case 3://Exit

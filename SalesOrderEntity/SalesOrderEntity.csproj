@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D3AFBB2-BA02-4621-8FB0-AD98D952FFEF}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>SalesPersonOrderSystem</RootNamespace>
-    <AssemblyName>SalesPersonOrderSystem</AssemblyName>
+    <ProjectGuid>{37F3E4FE-04A3-4D0D-B845-4DCE33AFA3FC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SalesOrderEntity</RootNamespace>
+    <AssemblyName>SalesOrderEntity</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,21 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SalesOrderEntity\SalesOrderEntity.csproj">
-      <Project>{37f3e4fe-04a3-4d0d-b845-4dce33afa3fc}</Project>
-      <Name>SalesOrderEntity</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SalesOrderExceptions\SalesOrderExceptions.csproj">
-      <Project>{089c532f-e77a-4d71-b71c-5c40be1e90c2}</Project>
-      <Name>SalesOrderExceptions</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
