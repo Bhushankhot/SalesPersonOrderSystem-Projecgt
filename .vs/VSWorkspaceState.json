@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SalesPersonOrderSystem"
+    "\\SalesOrderExceptions",
+    "\\SalesPersonOrderSystem",
+    "\\SalesPersonOrderSystem\\Properties"
   ],
-  "SelectedNode": "\\SalesPersonOrderSystem\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

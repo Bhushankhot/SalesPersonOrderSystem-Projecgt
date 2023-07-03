@@ -26,4 +26,20 @@ namespace SalesOrderExceptions
 
         }
     }
+
+    class IsValidDateFormatException : ApplicationException
+    {
+        public IsValidDateFormatException(String msg) : base(msg)
+        {
+
+        }
+    }
+    
+    class IsValidDateException : ApplicationException
+    {
+        public IsValidDateException(String msg) : base(msg)
+        {
+
+        }
+    }
 }
