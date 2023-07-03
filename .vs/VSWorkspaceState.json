@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SalesPersonOrderSystem"
+    "\\SalesOrderExceptions",
+    "\\SalesPersonOrderSystem",
+    "\\SalesPersonOrderSystem\\Properties"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\SalesPersonOrderSystem.sln",
+=======
+>>>>>>> e4c103e5c0f7afffca2e7ed9aaa7d85a3f280354
   "PreviewInSolutionExplorer": false
 }
