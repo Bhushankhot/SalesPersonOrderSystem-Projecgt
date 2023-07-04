@@ -24,19 +24,15 @@ namespace SalesPersonOrderManger
             string dateFormat = "dd/MM/yyyy";
 
             bool isValidDate = DateTime.TryParseExact(Order_date, dateFormat, null, DateTimeStyles.None, out DateTime parsedDate);
-            try
+            if (isValidDate)
             {
-                if (isValidDate)
-                {
-                    // Console.WriteLine("Valid");
-                }
+               // Console.WriteLine("Valid")
             }
-            catch(Exception ex ){
-           
-                
-                    throw new IsValidDateFormatException(ex.Message);
-                
+            else
+            {
+                throw new IsValidDateFormatException("Invalid date format!");
             }
+               
             // Check valid date
             string curDate = DateTime.Now.ToString("dd/MM/yyyy");
             DateTime date1 = DateTime.Parse(curDate);
@@ -47,7 +43,7 @@ namespace SalesPersonOrderManger
             }
             else
             {
-                throw new IsValidDateFormatException("Invalid Date Format!");
+                throw new IsValidDateFormatException("Invalid Date!");
             }
 
             // amt greater than zero
