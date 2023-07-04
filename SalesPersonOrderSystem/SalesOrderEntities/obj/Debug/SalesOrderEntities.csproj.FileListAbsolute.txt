@@ -1,0 +1,12 @@
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\SalesOrderEntities\bin\Debug\SalesOrderEntities.dll
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\SalesOrderEntities\bin\Debug\SalesOrderEntities.pdb
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\SalesOrderEntities\bin\Debug\EntityFramework.dll
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\SalesOrderEntities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\SalesOrderEntities\bin\Debug\EntityFramework.xml
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\SalesOrderEntities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\SalesOrderEntities\obj\Debug\SalesOrderEntities.csproj.AssemblyReference.cache
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\SalesOrderEntities\obj\Debug\SalesOrderEntities.csproj.CoreCompileInputs.cache
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\SalesOrderEntities\obj\Debug\SalesOrderEntities.csproj.CopyComplete
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\SalesOrderEntities\obj\Debug\SalesOrderEntities.dll
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\SalesOrderEntities\obj\Debug\SalesOrderEntities.pdb
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\SalesOrderEntities\bin\Debug\SalesOrderEntities.dll.config

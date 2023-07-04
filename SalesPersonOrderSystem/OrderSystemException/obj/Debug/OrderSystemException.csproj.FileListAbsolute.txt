@@ -1,0 +1,12 @@
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\bin\Debug\OrderSystemException.dll
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\bin\Debug\OrderSystemException.pdb
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\obj\Debug\OrderSystemException.csproj.AssemblyReference.cache
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\obj\Debug\OrderSystemException.csproj.CoreCompileInputs.cache
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\obj\Debug\OrderSystemException.dll
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\obj\Debug\OrderSystemException.pdb
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\bin\Debug\OrderSystemException.dll.config
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\bin\Debug\EntityFramework.dll
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\bin\Debug\EntityFramework.xml
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\obj\Debug\OrderSystemException.csproj.CopyComplete
