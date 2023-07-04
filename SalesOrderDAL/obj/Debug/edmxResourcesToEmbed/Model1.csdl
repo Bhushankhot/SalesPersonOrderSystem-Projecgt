@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ORDER_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__cust_id__3B75D760" FromRole="Customers" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="Order_id" />
+    </Key>
+    <Property Name="Order_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="order_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Amount" Type="Int32" Nullable="false" />
+    <Property Name="cust_id" Type="Int32" />
+    <Property Name="salesperson_id" Type="Int32" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK__Orders__cust_id__3B75D760" FromRole="Orders" ToRole="Customers" />
+    <NavigationProperty Name="SalesPerson" Relationship="Self.FK__Orders__salesper__3C69FB99" FromRole="Orders" ToRole="SalesPerson" />
+  </EntityType>
+  <EntityType Name="SalesPerson">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__salesper__3C69FB99" FromRole="SalesPerson" ToRole="Orders" />
+  </EntityType>
+  <Association Name="FK__Orders__cust_id__3B75D760">
+    <End Role="Customers" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="cust_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__salesper__3C69FB99">
+    <End Role="SalesPerson" Type="Self.SalesPerson" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SalesPerson">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="salesperson_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ORDER_DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Orders" EntityType="Self.Order" />
+    <EntitySet Name="SalesPersons" EntityType="Self.SalesPerson" />
+    <AssociationSet Name="FK__Orders__cust_id__3B75D760" Association="Self.FK__Orders__cust_id__3B75D760">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__salesper__3C69FB99" Association="Self.FK__Orders__salesper__3C69FB99">
+      <End Role="SalesPerson" EntitySet="SalesPersons" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

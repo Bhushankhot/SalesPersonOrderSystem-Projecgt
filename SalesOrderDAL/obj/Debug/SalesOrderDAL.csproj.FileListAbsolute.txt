@@ -1,0 +1,12 @@
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderDAL\bin\Debug\SalesOrderDAL.dll.config
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderDAL\bin\Debug\SalesOrderDAL.dll
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderDAL\bin\Debug\SalesOrderDAL.pdb
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderDAL\bin\Debug\EntityFramework.dll
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderDAL\bin\Debug\EntityFramework.xml
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderDAL\obj\Debug\SalesOrderDAL.csproj.AssemblyReference.cache
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderDAL\obj\Debug\SalesOrderDAL.csproj.CoreCompileInputs.cache
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderDAL\obj\Debug\SalesOrderDAL.csproj.CopyComplete
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderDAL\obj\Debug\SalesOrderDAL.dll
+C:\Users\Bhushan.Khot\Documents\SalesPersonOrderSystem\SalesOrderDAL\obj\Debug\SalesOrderDAL.pdb

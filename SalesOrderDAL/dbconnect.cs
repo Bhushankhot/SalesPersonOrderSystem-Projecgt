@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using SalesOrderEntity;
+
 namespace SalesOrderDAL
 {
     public class dbconnect : IDataAccess
@@ -16,7 +16,7 @@ namespace SalesOrderDAL
 
         public void AddOrderForm(Order ord)
         {
-            var dbctx = new OrderDbEntity();
+            var dbctx = new ORDER_DBEntities();
             dbctx.Orders.Add(ord);
             dbctx.SaveChanges();
         }
@@ -27,7 +27,7 @@ namespace SalesOrderDAL
         }
         public List<Order> GetAllOrders()
         {
-            var dbctx = new OrderDbEntity();
+            var dbctx = new ORDER_DBEntities();
             var result = dbctx.Orders.ToList();
             return result;
 
@@ -35,7 +35,7 @@ namespace SalesOrderDAL
 
         public Order GetorderById(int id)
         {
-            var dbctx = new OrderDbEntity();
+            var dbctx = new ORDER_DBEntities();
             var record = dbctx.Orders.Find(id);
             if (record != null)
             { 
