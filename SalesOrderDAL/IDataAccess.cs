@@ -8,7 +8,7 @@ using SalesOrderEntity;
 
 namespace SalesOrderDAL
 {
-    interface IDataAccess
+    public interface IDataAccess
     {
 
         void AddOrderForm(Order ord);

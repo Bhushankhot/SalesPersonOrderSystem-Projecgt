@@ -59,7 +59,7 @@ namespace SalesPersonOrderSystem
             } while (ch!=3);
         }
     }
-    class DataAccessCls
+   /* class DataAccessCls
     {
         public List<Order> GetOrders()
         {
@@ -82,7 +82,7 @@ namespace SalesPersonOrderSystem
             var dbctx = new CURDBEntities();
             var rescord = dbctx.Orders.Add(o);
             dbctx.SaveChanges();
-        }
+        }*/
         /* Delete any order
         public void DelOrder(int id)
         {

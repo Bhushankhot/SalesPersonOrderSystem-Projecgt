@@ -50,10 +50,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customer.cs" />
     <Compile Include="dbconnect.cs" />
     <Compile Include="IDataAccess.cs" />
-    <Compile Include="Model1.cs" />
+    <Compile Include="OrderDbEntity.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesPerson.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SalesOrderEntity\SalesOrderEntity.csproj">
