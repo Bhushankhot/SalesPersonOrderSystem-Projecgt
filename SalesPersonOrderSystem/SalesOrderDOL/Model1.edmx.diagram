@@ -4,12 +4,12 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="9bbd5d6ff0834ebeb9ded30130646762" Name="Diagram1">
-        <EntityTypeShape EntityType="SalesOrderDBModel.Customer" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesOrderDBModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesOrderDBModel.SalesPerson" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
-        <AssociationConnector Association="SalesOrderDBModel.FK__Orders__cust_id__3B75D760" ManuallyRouted="false" />
-        <AssociationConnector Association="SalesOrderDBModel.FK__Orders__salesper__3C69FB99" ManuallyRouted="false" />
+      <Diagram DiagramId="9a87e5f7c6084f2f8063cce5500b6ca3" Name="Diagram1">
+        <EntityTypeShape EntityType="My_DBModel.Customer" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="My_DBModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="My_DBModel.SalesPerson" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="My_DBModel.FK__Orders__cust_id__671F4F74" ManuallyRouted="false" />
+        <AssociationConnector Association="My_DBModel.FK__Orders__salesper__681373AD" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="SalesOrderDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="My_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="Customers">
     <Key>
       <PropertyRef Name="ID" />
@@ -24,7 +24,7 @@
     <Property Name="ID" Type="int" Nullable="false" />
     <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
   </EntityType>
-  <Association Name="FK__Orders__cust_id__3B75D760">
+  <Association Name="FK__Orders__cust_id__671F4F74">
     <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
     <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
     <ReferentialConstraint>
@@ -36,7 +36,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Orders__salesper__3C69FB99">
+  <Association Name="FK__Orders__salesper__681373AD">
     <End Role="SalesPerson" Type="Self.SalesPerson" Multiplicity="0..1" />
     <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
     <ReferentialConstraint>
@@ -48,15 +48,15 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="SalesOrderDBModelStoreContainer">
+  <EntityContainer Name="My_DBModelStoreContainer">
     <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="SalesPerson" EntityType="Self.SalesPerson" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK__Orders__cust_id__3B75D760" Association="Self.FK__Orders__cust_id__3B75D760">
+    <AssociationSet Name="FK__Orders__cust_id__671F4F74" Association="Self.FK__Orders__cust_id__671F4F74">
       <End Role="Customers" EntitySet="Customers" />
       <End Role="Orders" EntitySet="Orders" />
     </AssociationSet>
-    <AssociationSet Name="FK__Orders__salesper__3C69FB99" Association="Self.FK__Orders__salesper__3C69FB99">
+    <AssociationSet Name="FK__Orders__salesper__681373AD" Association="Self.FK__Orders__salesper__681373AD">
       <End Role="SalesPerson" EntitySet="SalesPerson" />
       <End Role="Orders" EntitySet="Orders" />
     </AssociationSet>

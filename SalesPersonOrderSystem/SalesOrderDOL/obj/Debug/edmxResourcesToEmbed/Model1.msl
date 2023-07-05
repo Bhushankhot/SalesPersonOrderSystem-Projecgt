@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="SalesOrderDBModelStoreContainer" CdmEntityContainer="SalesOrderDBEntities">
+  <EntityContainerMapping StorageEntityContainer="My_DBModelStoreContainer" CdmEntityContainer="My_DBEntities">
     <EntitySetMapping Name="Customers">
-      <EntityTypeMapping TypeName="SalesOrderDBModel.Customer">
+      <EntityTypeMapping TypeName="My_DBModel.Customer">
         <MappingFragment StoreEntitySet="Customers">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -10,7 +10,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Orders">
-      <EntityTypeMapping TypeName="SalesOrderDBModel.Order">
+      <EntityTypeMapping TypeName="My_DBModel.Order">
         <MappingFragment StoreEntitySet="Orders">
           <ScalarProperty Name="Order_id" ColumnName="Order_id" />
           <ScalarProperty Name="order_date" ColumnName="order_date" />
@@ -21,7 +21,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="SalesPersons">
-      <EntityTypeMapping TypeName="SalesOrderDBModel.SalesPerson">
+      <EntityTypeMapping TypeName="My_DBModel.SalesPerson">
         <MappingFragment StoreEntitySet="SalesPerson">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />

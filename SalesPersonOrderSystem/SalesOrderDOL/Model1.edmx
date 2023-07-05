@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="SalesOrderDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="My_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Customers">
           <Key>
             <PropertyRef Name="ID" />
@@ -29,7 +29,7 @@
           <Property Name="ID" Type="int" Nullable="false" />
           <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
         </EntityType>
-        <Association Name="FK__Orders__cust_id__3B75D760">
+        <Association Name="FK__Orders__cust_id__671F4F74">
           <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
           <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
           <ReferentialConstraint>
@@ -41,7 +41,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__salesper__3C69FB99">
+        <Association Name="FK__Orders__salesper__681373AD">
           <End Role="SalesPerson" Type="Self.SalesPerson" Multiplicity="0..1" />
           <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
           <ReferentialConstraint>
@@ -53,15 +53,15 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="SalesOrderDBModelStoreContainer">
+        <EntityContainer Name="My_DBModelStoreContainer">
           <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="SalesPerson" EntityType="Self.SalesPerson" Schema="dbo" store:Type="Tables" />
-          <AssociationSet Name="FK__Orders__cust_id__3B75D760" Association="Self.FK__Orders__cust_id__3B75D760">
+          <AssociationSet Name="FK__Orders__cust_id__671F4F74" Association="Self.FK__Orders__cust_id__671F4F74">
             <End Role="Customers" EntitySet="Customers" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__salesper__3C69FB99" Association="Self.FK__Orders__salesper__3C69FB99">
+          <AssociationSet Name="FK__Orders__salesper__681373AD" Association="Self.FK__Orders__salesper__681373AD">
             <End Role="SalesPerson" EntitySet="SalesPerson" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
@@ -70,14 +70,14 @@
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="SalesOrderDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <Schema Namespace="My_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityType Name="Customer">
           <Key>
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" />
           <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__cust_id__3B75D760" FromRole="Customers" ToRole="Orders" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__cust_id__671F4F74" FromRole="Customers" ToRole="Orders" />
         </EntityType>
         <EntityType Name="Order">
           <Key>
@@ -88,8 +88,8 @@
           <Property Name="Amount" Type="Int32" Nullable="false" />
           <Property Name="cust_id" Type="Int32" />
           <Property Name="salesperson_id" Type="Int32" />
-          <NavigationProperty Name="Customer" Relationship="Self.FK__Orders__cust_id__3B75D760" FromRole="Orders" ToRole="Customers" />
-          <NavigationProperty Name="SalesPerson" Relationship="Self.FK__Orders__salesper__3C69FB99" FromRole="Orders" ToRole="SalesPerson" />
+          <NavigationProperty Name="Customer" Relationship="Self.FK__Orders__cust_id__671F4F74" FromRole="Orders" ToRole="Customers" />
+          <NavigationProperty Name="SalesPerson" Relationship="Self.FK__Orders__salesper__681373AD" FromRole="Orders" ToRole="SalesPerson" />
         </EntityType>
         <EntityType Name="SalesPerson">
           <Key>
@@ -97,9 +97,9 @@
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" />
           <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__salesper__3C69FB99" FromRole="SalesPerson" ToRole="Orders" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__salesper__681373AD" FromRole="SalesPerson" ToRole="Orders" />
         </EntityType>
-        <Association Name="FK__Orders__cust_id__3B75D760">
+        <Association Name="FK__Orders__cust_id__671F4F74">
           <End Role="Customers" Type="Self.Customer" Multiplicity="0..1" />
           <End Role="Orders" Type="Self.Order" Multiplicity="*" />
           <ReferentialConstraint>
@@ -111,7 +111,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__salesper__3C69FB99">
+        <Association Name="FK__Orders__salesper__681373AD">
           <End Role="SalesPerson" Type="Self.SalesPerson" Multiplicity="0..1" />
           <End Role="Orders" Type="Self.Order" Multiplicity="*" />
           <ReferentialConstraint>
@@ -123,15 +123,15 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="SalesOrderDBEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="My_DBEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Customers" EntityType="Self.Customer" />
           <EntitySet Name="Orders" EntityType="Self.Order" />
           <EntitySet Name="SalesPersons" EntityType="Self.SalesPerson" />
-          <AssociationSet Name="FK__Orders__cust_id__3B75D760" Association="Self.FK__Orders__cust_id__3B75D760">
+          <AssociationSet Name="FK__Orders__cust_id__671F4F74" Association="Self.FK__Orders__cust_id__671F4F74">
             <End Role="Customers" EntitySet="Customers" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__salesper__3C69FB99" Association="Self.FK__Orders__salesper__3C69FB99">
+          <AssociationSet Name="FK__Orders__salesper__681373AD" Association="Self.FK__Orders__salesper__681373AD">
             <End Role="SalesPerson" EntitySet="SalesPersons" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
@@ -141,9 +141,9 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="SalesOrderDBModelStoreContainer" CdmEntityContainer="SalesOrderDBEntities">
+        <EntityContainerMapping StorageEntityContainer="My_DBModelStoreContainer" CdmEntityContainer="My_DBEntities">
           <EntitySetMapping Name="Customers">
-            <EntityTypeMapping TypeName="SalesOrderDBModel.Customer">
+            <EntityTypeMapping TypeName="My_DBModel.Customer">
               <MappingFragment StoreEntitySet="Customers">
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
@@ -151,7 +151,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Orders">
-            <EntityTypeMapping TypeName="SalesOrderDBModel.Order">
+            <EntityTypeMapping TypeName="My_DBModel.Order">
               <MappingFragment StoreEntitySet="Orders">
                 <ScalarProperty Name="Order_id" ColumnName="Order_id" />
                 <ScalarProperty Name="order_date" ColumnName="order_date" />
@@ -162,7 +162,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="SalesPersons">
-            <EntityTypeMapping TypeName="SalesOrderDBModel.SalesPerson">
+            <EntityTypeMapping TypeName="My_DBModel.SalesPerson">
               <MappingFragment StoreEntitySet="SalesPerson">
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="Name" ColumnName="Name" />

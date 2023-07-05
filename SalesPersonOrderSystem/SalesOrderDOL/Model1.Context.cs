@@ -13,10 +13,10 @@ namespace SalesOrderDOL
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class SalesOrderDBEntities : DbContext
+    public partial class My_DBEntities : DbContext
     {
-        public SalesOrderDBEntities()
-            : base("name=SalesOrderDBEntities")
+        public My_DBEntities()
+            : base("name=My_DBEntities")
         {
         }
     

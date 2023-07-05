@@ -10,3 +10,15 @@ C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemExcepti
 C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\bin\Debug\EntityFramework.xml
 C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Srivari.Chettiyar\GEPProjects\SalesPersonOrderSystem\OrderSystemException\obj\Debug\OrderSystemException.csproj.CopyComplete
+C:\Users\Rahul.surve\source\repos\PROJECT_SALES\SalesPersonOrderSystem\OrderSystemException\bin\Debug\OrderSystemException.dll.config
+C:\Users\Rahul.surve\source\repos\PROJECT_SALES\SalesPersonOrderSystem\OrderSystemException\bin\Debug\OrderSystemException.dll
+C:\Users\Rahul.surve\source\repos\PROJECT_SALES\SalesPersonOrderSystem\OrderSystemException\bin\Debug\OrderSystemException.pdb
+C:\Users\Rahul.surve\source\repos\PROJECT_SALES\SalesPersonOrderSystem\OrderSystemException\bin\Debug\EntityFramework.dll
+C:\Users\Rahul.surve\source\repos\PROJECT_SALES\SalesPersonOrderSystem\OrderSystemException\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rahul.surve\source\repos\PROJECT_SALES\SalesPersonOrderSystem\OrderSystemException\bin\Debug\EntityFramework.xml
+C:\Users\Rahul.surve\source\repos\PROJECT_SALES\SalesPersonOrderSystem\OrderSystemException\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rahul.surve\source\repos\PROJECT_SALES\SalesPersonOrderSystem\OrderSystemException\obj\Debug\OrderSystemException.csproj.AssemblyReference.cache
+C:\Users\Rahul.surve\source\repos\PROJECT_SALES\SalesPersonOrderSystem\OrderSystemException\obj\Debug\OrderSystemException.csproj.CoreCompileInputs.cache
+C:\Users\Rahul.surve\source\repos\PROJECT_SALES\SalesPersonOrderSystem\OrderSystemException\obj\Debug\OrderSystemException.csproj.CopyComplete
+C:\Users\Rahul.surve\source\repos\PROJECT_SALES\SalesPersonOrderSystem\OrderSystemException\obj\Debug\OrderSystemException.dll
+C:\Users\Rahul.surve\source\repos\PROJECT_SALES\SalesPersonOrderSystem\OrderSystemException\obj\Debug\OrderSystemException.pdb
